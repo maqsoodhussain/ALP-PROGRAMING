@@ -8,6 +8,7 @@
 
 .startup ; like our main function program states here
       mov dx,65  ; ascii value of A IS 65 put that value in data register
+                 ; for printing lowercase we put ascii value of "a" in dx rather than "A"
       mov cx,26  ; loop counter (loop runs 26 times 65 To 91
       
       l1:
